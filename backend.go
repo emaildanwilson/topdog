@@ -15,7 +15,7 @@ type backEndResponse struct {
 	UIVersion      int    `json:"uiVersion,omitempty"`
 }
 
-var v1dogs = append(dogs, "mike", "mike", "mike", "mike")
+var v1dogs = append(dogs, "trump", "trump", "trump", "trump")
 
 func voteV1() (string, error) {
 	v := rand.Int31n(int32(len(v1dogs)))
@@ -33,7 +33,7 @@ func voteV2() (string, error) {
 	return v2dogs[v], nil
 }
 
-var v3dogs = append(dogs, "amit", "amit", "mike", "dan", "dan", "dan", "dan", "reuben", "prashanth")
+var v3dogs = append(dogs, "amit", "amit", "trump", "merkel", "merkel", "merkel", "merkel", "reuben", "prashanth")
 
 func voteV3() (string, error) {
 	v := rand.Int31n(int32(len(v3dogs)))

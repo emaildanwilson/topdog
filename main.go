@@ -26,9 +26,9 @@ var (
 	dogs = []string{
 		"amit",
 		"cameron",
-		"dan",
+		"merkel",
 		"HD",
-		"mike",
+		"trump",
 		"prashanth",
 		"reuben",
 	}
